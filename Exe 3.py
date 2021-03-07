@@ -85,4 +85,5 @@ def blackscholes_put(S0, K, T, r, sigma):
 
     return put
 
+
 print(confidence_interval(100, 100, 0.5, 0.01, 0.2, 10000))
